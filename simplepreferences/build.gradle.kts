@@ -47,7 +47,7 @@ afterEvaluate {
         from(components["release"])
         groupId = "com.github.luismendezc"  // Replace with your GitHub username
         artifactId = "simplepreferences"     // Replace with your library's name
-        version = "0.0.1"                   // Replace with your version
+        version = "0.0.2"                   // Replace with your version
       }
     }
   }
