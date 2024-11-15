@@ -21,6 +21,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "SimplePreferencesApp"
-include(":simplepreferences")
+//include(":simplepreferences")
 // Exclude or comment out the app module for JitPack builds
-// include(":app")
+ include(":app")
