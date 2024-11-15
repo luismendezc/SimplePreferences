@@ -16,9 +16,11 @@ dependencyResolutionManagement {
   repositories {
     google()
     mavenCentral()
+    maven { url = uri("https://www.jitpack.io" ) }
   }
 }
 
 rootProject.name = "SimplePreferencesApp"
-include(":app")
 include(":simplepreferences")
+// Exclude or comment out the app module for JitPack builds
+// include(":app")
