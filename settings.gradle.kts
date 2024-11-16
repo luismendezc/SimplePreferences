@@ -21,6 +21,7 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "SimplePreferencesApp"
+// Comment when you want to use the github release instead
 //include(":simplepreferences")
 // Exclude or comment out the app module for JitPack builds
  include(":app")

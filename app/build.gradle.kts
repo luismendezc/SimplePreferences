@@ -54,5 +54,6 @@ dependencies {
   debugImplementation(libs.androidx.ui.tooling)
   debugImplementation(libs.androidx.ui.test.manifest)
 
+  //implementation(project(":simplepreferences"))
   implementation("com.github.luismendezc:SimplePreferences:0.0.2")
 }
